@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="900" height="640" tilewidth="1" tileheight="1" backgroundcolor="#ffffff">
+ <tileset firstgid="1" name="teste" tilewidth="54" tileheight="56">
+  <image source="../Pictures/rufusPersonagens/bolavoadora.png" trans="ff00ff" width="54" height="56"/>
+ </tileset>
+ <tileset firstgid="2" name="vbads" tilewidth="50" tileheight="58">
+  <image source="../Pictures/rufusPersonagens/cogumelo1.png" trans="ff00ff" width="50" height="58"/>
+ </tileset>
+ <imagelayer name="Camada de Imagem 1" width="900" height="640">
+  <image source="../Pictures/jesus3_640.png"/>
+ </imagelayer>
+ <objectgroup name="Camada de Objetos 1" width="900" height="640">
+  <object gid="1" x="31" y="479"/>
+  <object gid="1" x="46" y="146"/>
+  <object gid="1" x="262" y="135"/>
+  <object gid="2" x="489" y="225"/>
+  <object gid="2" x="265" y="276"/>
+ </objectgroup>
+</map>

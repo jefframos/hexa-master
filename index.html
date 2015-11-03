@@ -1,0 +1,79 @@
+<html>
+<head>
+	<!-- <link href="http://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet" type="text/css"> -->
+	<title>Prototype</title>
+
+	<script src='https://cdn.firebase.com/v0/firebase.js'></script>
+	<link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=900px">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap-theme.min.css">
+
+	<style type="text/css">	
+	
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #06161B;
+			font-family: sans-serif;
+		}
+
+		.game {
+			background-color: #06161B;
+		}
+		canvas {
+			position:  absolute;
+			width:  100%;
+  			height: 100%;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+
+	</style>
+</head>
+<body>
+
+<script src="framework/source/jquery/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="assets/bootstrap.min.js"></script>
+
+
+<!-- <h1 style="font-family: 'Luckiest Guy'">teste</h1> -->
+<script type="text/javascript" src="framework/source/class.js"></script>
+<script type="text/javascript" src="framework/source/pixi/pixi.dev.js"></script>
+<script type="text/javascript" src="framework/source/pixi/pixi.ext.js"></script>
+<script type="text/javascript" src="framework/source/pixi/Graphics.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/application/AbstractApplication.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/abstractFactory/GUI/DefaultButton.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/layer/Layer.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/layer/LayerManager.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/screen/AbstractScreen.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/screen/ScreenManager.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/entity/Entity.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/entity/SpritesheetEntity.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/utils/ArrayUtils.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/utils/SimpleSprite.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/utils/spritesheet/Spritesheet.js"></script>
+<script type="text/javascript" src="framework/source/easeGameFramework/utils/spritesheet/SpritesheetAnimation.js"></script>
+<script type="text/javascript" src="source/game/Game.js"></script>
+<script type="text/javascript" src="source/game/screen/BoardScreen.js"></script>
+
+<script type="text/javascript" src="source/game/grid/GridTile.js"></script>
+<script type="text/javascript" src="source/game/card/CardModel.js"></script>
+<script type="text/javascript" src="source/game/card/Card.js"></script>
+
+<script type="text/javascript" src="source/main.js"></script>
+<script src="framework/source/EasePack.min.js"></script>
+<script src="framework/source/TweenLite.min.js"></script>
+<script src="framework/source/TimelineLite.min.js"></script>
+
+<script type="text/javascript">
+	initialize();
+</script>
+
+</body>
+</html>
